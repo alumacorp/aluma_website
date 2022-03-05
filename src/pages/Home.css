@@ -1,0 +1,55 @@
+.home {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+.home h1,
+.home span {
+    color: white;
+    font-size: 90px;
+    align-self: center;
+    font-family: 'Dancing Script', cursive;
+    transition: all ease 0.5s;
+}
+
+.tag-line:hover {
+    transform: scale(1.1);
+}
+
+.coming-soon {
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    font-size: xx-large;
+}
+
+.phone-image {
+    height: 70vh;
+    width: 25rem;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.download-button {
+    padding: 12px;
+    border-radius: 10px;
+    align-self: center;
+    margin: 10px;
+    background-color: #121212;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 10rem;
+    font-size: medium;
+    transition: all ease 0.5s;
+}
+
+.download-button:hover {
+    transform: scale(1.1);
+    background-color: rgb(161 95 205);
+
+}

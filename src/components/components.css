@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.header-right p {
+    color: white;
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+    color: lightgrey;
+    transition: all ease 0.5s;
+}
+
+.header-right button {
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #121212;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+
+}
+
+.header-button:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.logo {
+    height: 100%;
+    margin-left: 10px;
+
+}
