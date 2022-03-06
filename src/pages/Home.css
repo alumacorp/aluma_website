@@ -5,6 +5,8 @@
     background-color: black;
     flex-direction: column;
     padding-bottom: 5rem;
+    align-items: center;
+
 }
 
 .home h1,
@@ -52,4 +54,16 @@
     transform: scale(1.1);
     background-color: rgb(161 95 205);
 
+}
+
+@media only screen and (max-width: 700px) {
+
+    .home h1,
+    .home span {
+        font-size: 50px;
+    }
+
+    .home {
+        overflow-x: hidden;
+    }
 }
