@@ -22,6 +22,11 @@
     transform: scale(1.1);
 }
 
+.tag-line {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 2px;
+}
+
 .coming-soon {
     color: white;
     font-weight: bold;
@@ -65,5 +70,6 @@
 
     .home {
         overflow-x: hidden;
+        padding-top: 10vh;
     }
 }
