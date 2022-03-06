@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
         <img className="phone-image" src={require("../assets/phone.png")} />
         <button className="download-button">
-          Coming soon <i class="fab fa-apple" />
+          Coming soon <i class="fab fa-cut"/>
         </button>
         <Footer />
       </div>
