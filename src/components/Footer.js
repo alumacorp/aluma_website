@@ -150,28 +150,24 @@ export default function Footer() {
           </div>
           <div class="">
             <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-              Products
+             Services
             </h6>
             <p class="mb-4">
               <a href="#!" class="text-gray-600">
-                Angular
+                Men
               </a>
             </p>
             <p class="mb-4">
               <a href="#!" class="text-gray-600">
-                React
+                Women
               </a>
             </p>
             <p class="mb-4">
               <a href="#!" class="text-gray-600">
-                Vue
+               Unisex
               </a>
             </p>
-            <p>
-              <a href="#!" class="text-gray-600">
-                Laravel
-              </a>
-            </p>
+           
           </div>
           <div class="">
             <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
