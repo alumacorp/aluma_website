@@ -11,27 +11,27 @@ import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
 const features = [
   {
-    name: "Competitive exchange rates",
+    name: "Largest community over the globe.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "We are here with the vision of connecting barbers all over the globe makijg it the largest community of barbers all over the globe",
     icon: GlobeAltIcon,
   },
   {
-    name: "No hidden fees",
+    name: "Saving your most valuable asset.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "As we all have realized yet of the fact that the most valuable asset we have is our time and i guess no one would like to waste that waiting in a queue for haircut so, we are here investing our most valuable asset to save yours.",
     icon: ScaleIcon,
   },
   {
-    name: "Transfers are instant",
+    name: "Providing Salons a Better Marketplace.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "We are here with our platform connecting barbers and users all over the globe providing them a bigger marketplace with more exposure and heavy growth",
     icon: LightningBoltIcon,
   },
   {
-    name: "Mobile notifications",
+    name: "Grooming at your fingertips.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "As we all know grooming is something which is part of every person’s life like it’s inevitable. So we are here presenting you BARBA which allows you to choose your makeover at your fingertips making it sk easy .",
     icon: AnnotationIcon,
   },
 ];
@@ -119,7 +119,7 @@ export default function Home() {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-400 hover:bg-orange-700 md:py-4 md:text-lg md:px-10"
                   >
-                    Get started
+                    Coming soon
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -127,7 +127,7 @@ export default function Home() {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-orange-700 bg-orange-100 hover:bg-orange-200 md:py-4 md:text-lg md:px-10"
                   >
-                    Live demo
+                    Need Assistance?
                   </a>
                 </div>
               </div>
@@ -136,18 +136,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="py-12 bg-black p-5">
+      <div className="py-12 bg-black p-5 mb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h2 className="text-base text-orange-400 font-semibold tracking-wide uppercase">
-              Features
-            </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
               A better way to make your life easy
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-300 lg:mx-auto">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+              What we mean when we say making life easy?
             </p>
           </div>
 
@@ -172,7 +168,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" p-10 relative bg-black overflow-hidden">
+      <div className=" p-10 relative bg-black overflow-hidden mb-20">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
@@ -180,8 +176,8 @@ export default function Home() {
                 Beta look of the service
               </h1>
               <p className="mt-4 text-xl text-gray-300">
-                This year, our new summer collection will shelter you from the
-                harsh elements of a world that doesn't care if you live or die.
+                You can get a glims of the service in the beta version.
+                Exclusively here on the website.
               </p>
             </div>
             <div>
@@ -197,37 +193,14 @@ export default function Home() {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                            src={require("../assets/ss1.png")}
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                            src={require("../assets/ss2.png")}
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
@@ -236,14 +209,37 @@ export default function Home() {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                            src={require("../assets/ss3.png")}
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                            src={require("../assets/ss4.png")}
+                            alt=""
+                            className="w-full h-full object-center object-cover"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <img
+                            src={require("../assets/ss5.png")}
+                            alt=""
+                            className="w-full h-full object-center object-cover"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <img
+                            src={require("../assets/ss6.png")}
+                            alt=""
+                            className="w-full h-full object-center object-cover"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <img
+                            src={require("../assets/ss7.png")}
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
@@ -288,7 +284,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section class="bg-black dark:bg-gray-900 p-5">
+      {/*  <section class="bg-black dark:bg-gray-900 p-5">
         <div class="container px-6 py-10 mx-auto">
           <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
             explore our <br /> awesome{" "}
@@ -441,7 +437,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -23,8 +23,8 @@ export default function PrivacyPolicy() {
   return (
     <div className="relative bg-black overflow-hidden">
       <div className="max-w-7xl mx-auto ">
-        <div className="flex-1 min-w-0 mb-10">
-          <h2 className="text-6xl mt-10 font-bold leading-7 text-gray-600 ">
+        <div className="flex-1 min-w-0 mb-10 p-10">
+          <h2 className="text-6xl mt-10 font-bold leading-15 text-gray-600 ">
             Privacy Policy
           </h2>
           <p className="mt-10 text-xl leading-7 text-gray-500">

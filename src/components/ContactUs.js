@@ -10,8 +10,7 @@ export default function ContactUs() {
             Contact Us
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify.
+            Need Help write to us.
           </p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
@@ -56,11 +55,11 @@ export default function ContactUs() {
             </div>
             <div class="p-2 w-full">
               <button class="flex mx-auto text-white bg-orange-400 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">
-                Send <ArrowCircleRightIcon/>
+                Send <ArrowCircleRightIcon />
               </button>
             </div>
             <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-              <a class="text-orange-400">example@email.com</a>
+              <a class="text-orange-400">officialsbarba@gmail.com</a>
               <p class="leading-normal my-5">
                 49 Smith St.
                 <br />

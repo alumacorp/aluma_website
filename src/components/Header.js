@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
   BookmarkAltIcon,
@@ -16,6 +16,7 @@ import {
 } from "@heroicons/react/outline";
 import { ArrowCircleDownIcon, ChevronDownIcon } from "@heroicons/react/solid";
 import { Link } from "react-router-dom";
+import PopNotif from "./PopNotif";
 
 const solutions = [
   {
@@ -87,8 +88,10 @@ function classNames(...classes) {
 }
 
 export default function Header() {
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
   return (
     <Popover className="relative bg-black z-20">
+      <PopNotif togglePopNotif={isButtonClicked} text={"App Realeasing Soon"} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center z-20   py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -103,6 +106,7 @@ export default function Header() {
               </a>
             </Link>
           </div>
+
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-black rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
               <span className="sr-only">Open menu</span>
@@ -193,11 +197,11 @@ export default function Header() {
               )}
             </Popover>
           </Popover.Group>
-          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a
-              href="#"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-400 hover:bg-orange-700"
-            >
+          <div
+            onClick={() => setIsButtonClicked(true)}
+            className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"
+          >
+            <a className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-400 hover:bg-orange-700">
               Download App
             </a>
           </div>
@@ -256,14 +260,13 @@ export default function Header() {
             </div>
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                <Link to={"/about-us"}>
-                  <a
-                    href="#"
-                    className="text-base font-medium text-gray-300 hover:text-white"
-                  >
-                    About us
-                  </a>
-                </Link>
+                <a
+                  href="/about-us"
+                  className="text-base font-medium text-gray-300 hover:text-white"
+                >
+                  About us
+                </a>
+
                 <Link to={"/our-team"}>
                   <a
                     href="#"
@@ -293,7 +296,7 @@ export default function Header() {
                   </Link>
                 ))}
               </div>
-              <div>
+              <div onClick={() => setIsButtonClicked(true)}>
                 <a
                   href="#"
                   className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-700"

@@ -24,7 +24,7 @@ export default function AboutUs() {
     <div className="relative bg-black overflow-hidden p-10">
       <div className="max-w-7xl mx-auto ">
         <div className="flex-1 min-w-0 ">
-          <h2 className="text-6xl mt-20 font-bold leading-7 text-gray-900 ">
+          <h2 className="text-6xl  mt-10 font-bold leading-7 text-gray-500 ">
             About Us
           </h2>
 
@@ -36,14 +36,14 @@ export default function AboutUs() {
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                       <div class="py-3 sm:py-4">
                         <img
-                          src="https://cdn.tailgrids.com/1.0/assets/images/services/image-1.jpg"
+                          src="https://www.vcbay.news/wp-content/uploads/2022/01/happy-people-shopping-online_74855-5865.jpg"
                           alt=""
                           class="rounded-2xl w-full"
                         />
                       </div>
                       <div class="py-3 sm:py-4">
                         <img
-                          src="https://cdn.tailgrids.com/1.0/assets/images/services/image-2.jpg"
+                          src="https://img.freepik.com/free-vector/barber-concept-illustration_114360-5901.jpg?w=2000"
                           alt=""
                           class="rounded-2xl w-full"
                         />
@@ -52,7 +52,7 @@ export default function AboutUs() {
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                       <div class="my-4 relative z-10">
                         <img
-                          src="https://cdn.tailgrids.com/1.0/assets/images/services/image-3.jpg"
+                          src="https://media.istockphoto.com/vectors/illustration-of-diverse-people-seated-in-public-waiting-room-vector-id1296390218?k=20&m=1296390218&s=612x612&w=0&h=KbXSiNVA5GZCKHmYNPIr90BPpAweOBqSuSw5Ar1PpHA="
                           alt=""
                           class="rounded-2xl w-full"
                         />
@@ -632,9 +632,6 @@ export default function AboutUs() {
                 </div>
                 <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                   <div class="mt-10 lg:mt-0 text-gray-400">
-                    <span class="font-semibold text-gray-200 text-lg text-primary mb-2 block">
-                      Vision
-                    </span>
                     <h2 class="font-bold text-3xl sm:text-4xl text-dark mb-8">
                       When We say Making Life Easy , we actually mean it .
                     </h2>
@@ -656,13 +653,13 @@ export default function AboutUs() {
               </div>
             </div>
           </section>
-          <h2 className="text-6xl mt-20 font-bold leading-7 text-gray-900 ">
+          <h2 className="text-6xl  mt-20 font-bold leading-15 text-gray-500 ">
             Why to choose us
           </h2>
           <section class="text-gray-400 bg-black body-font">
             <div class="container px-5 py-24 mx-auto">
               <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-200">
                   Reasons to choose us
                 </h1>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
