@@ -59,7 +59,7 @@ export default function ContactUs() {
               </button>
             </div>
             <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-              <a class="text-orange-400">officialsbarba@gmail.com</a>
+              <a class="text-orange-400">officialsAluma@gmail.com</a>
               <p class="leading-normal my-5">
                 49 Smith St.
                 <br />

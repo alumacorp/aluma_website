@@ -31,7 +31,7 @@ const features = [
   {
     name: "Grooming at your fingertips.",
     description:
-      "As we all know grooming is something which is part of every person’s life like it’s inevitable. So we are here presenting you BARBA which allows you to choose your makeover at your fingertips making it sk easy .",
+      "As we all know grooming is something which is part of every person’s life like it’s inevitable. So we are here presenting you aluma which allows you to choose your makeover at your fingertips making it sk easy .",
     icon: AnnotationIcon,
   },
 ];

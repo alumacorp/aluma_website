@@ -35,7 +35,7 @@ export default function OurTeam() {
       instagram: "",
       linkedin: "",
       photo: require("../assets/adi.jpg"),
-      description: "I am the member of the barba team",
+      description: "I am the member of the aluma team",
     },
     {
       name: "Abhishek Das",
@@ -43,7 +43,7 @@ export default function OurTeam() {
       instagram: "https://instagram.com/_abhishekdas__?igshid=YmMyMTA2M2Y=",
       linkedin: "",
       photo: require("../assets/das.jpg"),
-      description: "I am the member of the barba team",
+      description: "I am the member of the aluma team",
     },
     {
       name: "Maanvendra Singh",
@@ -51,7 +51,7 @@ export default function OurTeam() {
       instagram: "https://instagram.com/manu_singh0222?r=nametag",
       linkedin: "https://www.linkedin.com/in/maanvendra-singh-18384a152",
       photo: require("../assets/manu.jpeg"),
-      description: "I am the member of the barba team",
+      description: "I am the member of the aluma team",
     },
     {
       name: "Sarvesh Chaubey",
@@ -59,7 +59,7 @@ export default function OurTeam() {
       instagram: "",
       linkedin: "",
       photo: require("../assets/sarvesh.jpeg"),
-      description: "I am the member of the barba team",
+      description: "I am the member of the aluma team",
     },
     {
       name: "Aryan Singh",

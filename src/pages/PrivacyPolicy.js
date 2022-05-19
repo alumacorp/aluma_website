@@ -1,19 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import { Fragment } from "react";
-import {
-  BriefcaseIcon,
-  CalendarIcon,
-  CheckIcon,
-  ChevronDownIcon,
-  CurrencyDollarIcon,
-  LinkIcon,
-  LocationMarkerIcon,
-  PencilIcon,
-  ArrowCircleRightIcon,
-} from "@heroicons/react/solid";
-import { Menu, Transition } from "@headlessui/react";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -126,12 +111,12 @@ export default function PrivacyPolicy() {
             plan to merge with, or be acquired by that business entity, or
             re-organization, amalgamation, restructuring of business. We have
             developed this Privacy Policy to protect Your personal/financial
-            information and keep it confidential. By visiting Our BARBA
+            information and keep it confidential. By visiting Our aluma
             platform, you are accepting and consenting to the practices
             described in this Privacy Policies. The following Privacy Policy and
             Cookie Policy outlines the information we may process and how we may
             use that information to better serve you while using our
-            BARBAplatform.
+            Alumaplatform.
           </p>
           <p className="mt-10 text-xl leading-7 text-gray-500">
             Third Party. At times we may tie-up with third parties, brand owners

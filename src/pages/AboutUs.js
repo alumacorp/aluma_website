@@ -14,7 +14,6 @@ import {
   ArrowCircleRightIcon,
 } from "@heroicons/react/solid";
 import { Menu, Transition } from "@headlessui/react";
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -760,12 +759,12 @@ export default function AboutUs() {
             <br /> How frustrating that would be to spend most of the time of
             your weekend or holiday waiting to get a haircut isn't it?
             <br /> Now we provide a solution to that like you can literally
-            avoid that waiting time. Our app "BARBA" contains a Vast and Variety{" "}
+            avoid that waiting time. Our app "aluma" contains a Vast and Variety{" "}
             <br />
             List of Barbershop where you can Choose your Favorite shop and
             Select an available Time slot and Book your Appointment for Hair
             Cutting , Grooming , Spa and variety of other services that are
-            provided by BARBA .Won't you prefer that? Won't it make it easy for
+            provided by aluma .Won't you prefer that? Won't it make it easy for
             you? We know it will . We Keep in check of that and also we have a
             User review and Rating system which will help you in selecting a
             best and available salon in that City or area.
