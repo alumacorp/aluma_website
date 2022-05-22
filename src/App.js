@@ -8,10 +8,13 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
 import { useEffect, useState } from "react";
-import MemberVerification from "./pages/dashboard/MemberVerification";
+import DashboardHome from "./pages/dashboard/DashboardHome";
+import Login from "./pages/dashboard/Login";
+import Member from "./pages/dashboard/Member";
 function App() {
   const [subDomain, setSubDomain] = useState(null);
   const [isAdmin, setIsAdmin] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   useEffect(() => {
     const host = window.location.host;
     const arr = host.split(".").slice(0, 1);
@@ -19,16 +22,25 @@ function App() {
       if (arr[0] == "admin") setIsAdmin(true);
       setSubDomain(arr[0]);
     }
+    setIsLoggedIn(localStorage.getItem("isAuthenticated") ? true : false);
   }, []);
 
   return (
     <BrowserRouter>
       {isAdmin ? (
-        <>
+        isLoggedIn ? (
           <Routes>
-            <Route path="/" element={<MemberVerification />} />
+            <Route path="/" element={<Login />} />
           </Routes>
-        </>
+        ) : (
+          <Routes>
+            <Route path="/" element={<DashboardHome />} />
+            <Route
+              path="/member/:memberId"
+              element={() => <Member shopData={"f"} />}
+            />
+          </Routes>
+        )
       ) : (
         <>
           {" "}
