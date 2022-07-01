@@ -21,17 +21,17 @@ const Header = () => {
       </div>
       <div className="max-width flex header">
         <h1>Aluma</h1>
-       {/*  <img src="" className="header-logo" /> */}
+        {/*  <img src="" className="header-logo" /> */}
         <div className="only-mobile mobile-menu-button-wrapper">
           <button
-            class={`hamburger hamburger--spin ${
+            className={`hamburger hamburger--spin ${
               showMobMenu ? "is-active" : ""
             }`}
             type="button"
             onClick={toggleMobileMenu}
           >
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
             </span>
           </button>
         </div>
