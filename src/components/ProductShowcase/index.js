@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useEffect } from "react";
 import "./productShowcase.css";
-
+//this is for testing purposes
 const ProductShowcase = () => {
   const [showAnimation, setShowAnimation] = useState(false);
   const ref = useRef(null);
